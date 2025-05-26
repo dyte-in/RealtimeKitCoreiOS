@@ -2,13 +2,13 @@
 import PackageDescription
 
 // BEGIN KMMBRIDGE VARIABLES BLOCK (do not edit)
-let remoteKotlinUrl = "https://dyte-assets.s3.ap-south-1.amazonaws.com/sdk/ios_core/RealtimeKitCore-0.2.1-04afa849-2b7a-4f60-bc43-1248dbfcb249.xcframework.zip"
-let remoteKotlinChecksum = "22e8dac70e219d240999249629cec34d7d4d1298a32940dce30b9c240f48f31d"
-let packageName = "RealtimeKitCore"
+let remoteKotlinUrl = "https://dyte-assets.s3.ap-south-1.amazonaws.com/sdk/ios_core/RealtimeKit-1.0.0-63157abe-26e4-4872-89ec-77afe153cfe8.xcframework.zip"
+let remoteKotlinChecksum = "9abc050fe7258789f1bb4758f009828d743306ccaa4eea10d14047ace5cd5606"
+let packageName = "RealtimeKit"
 // END KMMBRIDGE BLOCK
 
 let package = Package(
-    name: "RealtimeKitCore",
+    name: "RealtimeKit",
     platforms: [.iOS(.v13)],
     products: [
         .library(name: packageName, targets: [packageName, "DyteWebRTC"]),
