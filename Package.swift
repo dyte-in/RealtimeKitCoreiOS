@@ -11,14 +11,14 @@ let package = Package(
     name: "RealtimeKit",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: packageName, targets: [packageName, "DyteWebRTC"]),
-        .library(name: "DyteWebRTC", targets: ["DyteWebRTC"]),
+        .library(name: packageName, targets: [packageName, "RTKWebRTC"]),
+        .library(name: "RTKWebRTC", targets: ["RTKWebRTC"]),
     ],
     targets: [
         .binaryTarget(
-            name: "DyteWebRTC",
-            url: "https://sdk-assets.realtime.cloudflare.com/DyteWebRTC_v0.0.4.zip",
-            checksum: "25318dfb4bd018fde6ed7fd3337d9aa1c62fc8b39ab985c60fa530eb3819e68a"
+            name: "RTKWebRTC",
+            url: "https://sdk-assets.realtime.cloudflare.com/RTKWebRTC-v125.6422.07.zip",
+            checksum: "114cb3ea15c5709f2c35d2b1c7a64e742a6902d375d54895984263bb79d75ce3"
         ),
         .binaryTarget(
             name: packageName,
