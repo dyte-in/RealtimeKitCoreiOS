@@ -2,8 +2,8 @@
 import PackageDescription
 
 // BEGIN KMMBRIDGE VARIABLES BLOCK (do not edit)
-let remoteKotlinUrl = "https://sdk-assets.realtime.cloudflare.com/RealtimeKit-1.5.4-6d178bf6-1dfd-4f47-9c94-c435cc16cc61.xcframework.zip"
-let remoteKotlinChecksum = "047eb39a3f9ac60027cb40193afc5881cae1899e62b13fbc618f625e799e3bd1"
+let remoteKotlinUrl = "https://sdk-assets.realtime.cloudflare.com/RealtimeKit-1.5.5-b1c5b18b-dbb3-4bb9-9d00-405df0fa19c0.xcframework.zip"
+let remoteKotlinChecksum = "6b57f0fe5e7ff7d186dd08f2d6107f6d999c370522c69e7d08901733c4f05071"
 let packageName = "RealtimeKit"
 // END KMMBRIDGE BLOCK
 
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RTKWebRTC",
-            url: "https://sdk-assets.realtime.cloudflare.com/RTKWebRTC-v125.6422.07.zip",
-            checksum: "114cb3ea15c5709f2c35d2b1c7a64e742a6902d375d54895984263bb79d75ce3"
+            url: "https://sdk-assets.realtime.cloudflare.com/RTKWebRTC-137.7151.10.2.zip",
+            checksum: "2a56715d11dc3cbb722b43fc712fec68d9838b68b7297076e7ac3d0f8e9b6ccb"
         ),
         .binaryTarget(
             name: packageName,
